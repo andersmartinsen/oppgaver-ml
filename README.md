@@ -1,4 +1,4 @@
-oppgaver-ml
+Standard ML
 ===========
 
 Noen oppgaver i språket SML
