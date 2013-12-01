@@ -1,0 +1,7 @@
+fun max2 (a,b) = if a > b then a else b;
+
+fun max3(a,b,c) = max2(a, max2(b,c));
+
+fun max nil = 0
+	| max [n] = n
+	| max(n::ns) = max2(n,max(ns));
