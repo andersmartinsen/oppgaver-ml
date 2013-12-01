@@ -1,0 +1,1 @@
+fun max3(a,b,c) = max2(a, max2(b,c));
