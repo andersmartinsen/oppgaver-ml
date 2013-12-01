@@ -1,0 +1,21 @@
+Oppgave 2:
+	Andre grads polynomer ax^2+bx+c=0 har løsningene
+	 
+   	(-b+Math.sqrt(b^2-4ac))/2a and (-b-Math.sqrt(b^2-4ac))/2a
+	
+	hvor Math.sqrt er en standardfunksjon som finnes i ML
+	
+	
+	Skriv funksjonen:
+	
+	fun annengrad (a, b, c) = ... ;
+	
+	som returnerer begge løsningene. Prøv å unngå å regne ut kvadratroten mer enn en gang.
+
+
+   	Eksempler:
+
+- annengrad(1.0, 2.0, ~3.0);
+val it = (1.0,~3.0) : real * real
+- annengrad(1.0, 0.0, ~49.0);
+val it = (7.0,~7.0) : real * real

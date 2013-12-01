@@ -1,0 +1,46 @@
+Oppgave 6:
+
+   	a) Skriv funksjonen
+
+		fun first ... = ... ;
+    
+  		som returnerer det første elementet i en liste av strings som blir gitt som parameter
+
+		Eksempeler:
+			- val tv = ["Det", "bodde", "en", "underlig"];
+			val tv = ["Det","bodde","en","underlig"] : string list
+			- first tv;
+			val it = "Det" : string
+	
+		Svaret bør være en tom string hvis lista er tom
+	
+
+   	b) Skriv funksjonen
+
+		fun last ... = ... ;
+		
+		som returnerer det siste elementet i en liste av strings som blir gitt som parameter
+		
+      	Eksempel:
+
+			- last tv;
+			val it = "underlig" : string
+		
+		Svaret bør være en tom string hvis lista er tom	
+
+   c) Skriv funksjonen
+		
+		fun nth (n,x) = ... ;
+      	
+		som returnerer element nummer n fra lista x
+
+
+      	Eksempel:
+			- nth(1, tv);
+			val it = "Det" : string
+			- nth(3, tv);
+			val it = "en" : string
+			- nth(5, tv);
+			val it = "" : string
+			
+		Svaret bør være en tom string hvis lista er tom

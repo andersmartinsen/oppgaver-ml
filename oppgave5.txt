@@ -1,0 +1,38 @@
+Oppgave 5:
+
+   a) Skriv funksjonen
+
+		fun max2 (a, b) = ... ;
+      	
+		som returnerer det største av to integers a og b
+
+      	Eksempel:
+
+		- max2(3, ~17);
+		val it = 3 : int
+	
+	
+   b) Skriv funksjonen
+
+	 	fun max3 (a, b, c) = ... ;
+      	
+		som returnerer det største av tre integers a, b og c
+      	
+		Eksempel:
+		
+		- max3(4, ~5, 19);
+		val it = 19 : int
+
+
+   c) Skriv funksjonen
+
+		fun max ... = ... ;
+      	
+		som returnerer den største integer i lista som blir gitt som parameter
+		
+		Eksempel:
+
+		- max [7];
+		val it = 7 : int
+		- max [5, ~4, ~17, 28, 13];
+		val it = 28 : int

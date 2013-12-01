@@ -1,0 +1,17 @@
+Oppgave 3:
+
+   	Skriv funksjonen:
+	
+	fun power (a, b) = ... ;
+	
+	som regner ut a^b (a multiplisert med seg selv b ganger)
+	
+	Vi antar at a og b er integers og at b>=0
+
+
+Eksempler:
+	- power(2, 23);
+	val it = 8388608 : int
+	- power(~25, 2); 
+	val it = 625 : int
+
