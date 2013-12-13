@@ -7,8 +7,7 @@ som lager en liste av v n antall ganger.
 
 Eksempel: 
 
-	rep(17, 2);
-		- val it = [17, 17] : int list
-	rep("a", 5);
-		- val it = ["a", "a", "a", "a", "a"] : string list;
-	
+	- rep(17, 2);
+	val it = [17, 17] : int list
+	- rep("a", 5);
+	val it = ["a", "a", "a", "a", "a"] : string list;
