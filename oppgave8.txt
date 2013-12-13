@@ -1,0 +1,11 @@
+Oppgave 8:
+
+Skriv en funksjon:
+	fun reverse (l: 'a list) : 'a list = ...
+
+som reverserer en liste
+
+Eksempel: 
+
+	reverse(["A", "B","C"]) gir ["C", "B", "A"]
+	reverse([1, 2, 3, 4]) gir [4, 3, 2, 1]
